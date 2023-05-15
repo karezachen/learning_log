@@ -4,7 +4,7 @@
 # 部署启动
 
 ```shell
-python3 -m env ll_env
+python3 -m venv ll_env
 source ll_env/bin/activate
 python manage.py makemigrations learning_logs
 python manage.py migrate
